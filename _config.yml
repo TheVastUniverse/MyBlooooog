@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: hojun
+title: This is title
 subtitle:
 description: Testing......
 keywords:
@@ -80,7 +80,7 @@ theme: Sakura
 deploy:
   type: git
   repo: 
-    github: git@github.com:TheVastUniverse/Sakura-Blog-Theme.git
+    github: git@github.com:TheVastUniverse/MyBlooooog.git
     # github: https://github.com/honjun/honjun.github.io.git
     # coding: https://git.coding.net/hojun/hojun.git
   branch: main
@@ -88,9 +88,9 @@ deploy:
 # backup
 backup:
   type: git
-  message: backup my blog of https://yourname.github.io/
+  message: backup my blog of https://tinyuniverse.top
   repository:
-    github: git@github.com:TheVastUniverse/Sakura-Blog-Theme.git,backup
+    github: git@github.com:TheVastUniverse/MyBlooooog.git,backup
     # coding: https://git.coding.net/hojun/hojun.git,backup
 
 #RSS
