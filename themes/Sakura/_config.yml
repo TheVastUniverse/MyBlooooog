@@ -4,7 +4,7 @@ siteName: siteName
 # favicon and site master avatar
 favicon: /images/favicon.ico
 avatar: /img/custom/avatar.jpg
-url: tinyuniverse.top
+url: https://tinyuniverse.netlify.app/
 description: This is description
 cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6
 pjax: 1
