@@ -1,19 +1,19 @@
 # Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
+## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: This is title
+title: Hexo
 subtitle: subtitle
-description: Testing......
+description: 描述123
 keywords: 关键词1,关键词2 # edit for Theme.shoka
-author: Abyss
-language: zh-CN
+author: John Doe
+language: zh-CN # 这里只可以选 zh-CN、zh-HK、zh-TW、ja、en 这几个格式
 timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://tinyuniverse.top
+url: http://yoursite.com
 root: /
 permalink: :title/ # edit for Theme.shoka
 permalink_defaults:
@@ -41,23 +41,14 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight: 
-  enable: false
-  line_number: false
-  auto_detect: false
+highlight:
+  enable: false # edit for Theme.shoka
+  line_number: true
+  auto_detect: true
   tab_replace: ''
 prismjs:
   enable: false # edit for Theme.shoka
-  
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
-index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map: # edit for Theme.shoka
@@ -86,14 +77,9 @@ pagination_dir: page
 theme: shoka # edit for Theme.shoka
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: 
-    github: git@github.com:TheVastUniverse/MyBlooooog.git
-    # github: https://github.com/honjun/honjun.github.io.git
-    # coding: https://git.coding.net/hojun/hojun.git
-  branch: main
+  type:
 
 
 # edit for Theme.shoka
@@ -189,4 +175,3 @@ feed:
         enable: true
         template: "themes/shoka/layout/_alternate/json.ejs"
         output: "feed.json"
-
