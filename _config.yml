@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ShokaX Can
-subtitle: ''
+title: TinyUniverse
+subtitle: 'the Tiny Universe of TheVastUniverse'
 description: ''
 keywords:
-author: John Doe
-language: zh-cn
+author: Abyss
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -67,6 +67,11 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  AI:AI
+  JAVA:JAVA
+  算法:Algorithm
+  科研:Research
+  随笔:Essay
 tag_map:
 
 # Metadata elements
@@ -96,7 +101,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: shokax
+theme: hexo-theme-shokaX
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
