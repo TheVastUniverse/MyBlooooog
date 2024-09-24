@@ -259,7 +259,7 @@ widgets:
 
 footer:
   # Specify the date when the site was set up. If not defined, current year will be used.
-  since: 2022
+  since: 2024
   icon:
     name: sakura rotate
     # Change the color of icon, using Hex Code.
