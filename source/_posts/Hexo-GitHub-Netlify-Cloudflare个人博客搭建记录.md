@@ -1,6 +1,7 @@
 ---
 title: Hexo-GitHub-Netlify-Cloudflare个人博客搭建记录
 date: 2024-09-25 21:44:30
+layout: post
 ---
 
 ## Written at the Beginning

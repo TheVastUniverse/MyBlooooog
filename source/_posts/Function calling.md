@@ -1,9 +1,10 @@
 ---
-title: Function Calling
+title: 「大模型应用」Function Calling
 date: 2025-05-03 15:20:17
+layout: post
 ---
 
-# Function Calling
+# 「大模型应用」Function Calling
 
 ## 🌟大模型api的调用
 

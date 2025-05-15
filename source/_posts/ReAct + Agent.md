@@ -1,9 +1,10 @@
 ---
-title: ReAct + Agent
+title: 「大模型应用」ReAct + Agent
 date: 2025-05-15 23:04:30
+layout: post
 ---
 
-# ReAct + Agent
+# 「大模型应用」ReAct + Agent
 
 ## 从提示工程到代理工程
 
