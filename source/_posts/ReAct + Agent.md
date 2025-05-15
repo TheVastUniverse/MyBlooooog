@@ -27,7 +27,7 @@ layout: post
 
 现在想让大模型做一个能够独立思考的个体，此时我们要思考的是：构建 AI Agent 的目的是什么？它有具体的工作或角色定位吗？有没有支持目标的行动？或者支持行动的目标？那么就**非常有必要开始从提示工程过渡到更广泛的东西，即代理工程**。通过建立适当的框架、方法和心理模型来有效地设计整个流程。而这个阶段所提到的AI Agent 的心理模型，指的是在围绕代理工程的思维过程。核心思想相对简单，如下图所示：👇
 
-![Agent Engineering Framework](Agent Engineering Framework.png)
+![Agent_Engineering_Framework](Agent_Engineering_Framework.png)
 
 整个框架强调了从赋予AI代理任务到技术实现之间的递进关系，每一层都为下一层提供支持和基础。从AI代理被赋予特定的工作（Job(s)）开始，进而必须执行的操作（Action(s)）以完成这些工作，再到执行这些操作所需的特定能力（Capabilities）及其所需的熟练程度（Required Level of Proficiency）。为了达到这些能力的熟练程度，代理需要依赖于各种技术和技巧（Technologies and Techniques），而这些技术和技巧又必须通过精确的编排（Orchestration）来实现有效整合。整个过程形成了一个系统，其中每个部分都是实现AI代理高效运作的关键。
 
